@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TO Do</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src='main.js'></script>
+</head>
+<style>
+  .centre{
+    display:flex;
+    border:5px solid tomato;
+    justify-content:left;
+    margin-top:86px;
+    background-color:lightgreen
+  }
+</style>
+<body bgcolor="cyan">
+    <div class="w3-top">
+        <div class="w3-bar w3-green w3-wide w3-padding w3-card">
+          <a href="#home" class=" w3-panel w3-bar-item w3-button w3-black"><b>ABHIJITH</b> T P</a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-panel w3-right w3-hide-small w3-lime">
+            <a href="#projects" class="w3-bar-item w3-button">Login</a>
+            <a href="#about" class="w3-bar-item w3-button">Feed</a> -->
+         <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+          </div>
+        </div>
+    </div> 
+    
+  <!--   <div class="w3-display-Middle w3-padding-16 w3-lime"> -->
+        <div class='centre'>
+
+        {% block content %}
+
+        {% endblock %}
+
+    </div>
+</body>
+</html>
